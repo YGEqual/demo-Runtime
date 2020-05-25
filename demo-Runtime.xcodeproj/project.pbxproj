@@ -18,6 +18,7 @@
 		9F40EC9C244B2E390030E77D /* demo_RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40EC9B244B2E390030E77D /* demo_RuntimeUITests.m */; };
 		9F40ECAB244B2E640030E77D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40ECAA244B2E640030E77D /* Person.m */; };
 		9F40ECAE244B43750030E77D /* Person2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40ECAD244B43750030E77D /* Person2.m */; };
+		9F40ECB4244C5A5D0030E77D /* NSObject+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40ECB3244C5A5D0030E77D /* NSObject+Exception.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		9F40ECAA244B2E640030E77D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		9F40ECAC244B43750030E77D /* Person2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person2.h; sourceTree = "<group>"; };
 		9F40ECAD244B43750030E77D /* Person2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person2.m; sourceTree = "<group>"; };
+		9F40ECB2244C5A5D0030E77D /* NSObject+Exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Exception.h"; sourceTree = "<group>"; };
+		9F40ECB3244C5A5D0030E77D /* NSObject+Exception.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Exception.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				9F40ECAA244B2E640030E77D /* Person.m */,
 				9F40ECAC244B43750030E77D /* Person2.h */,
 				9F40ECAD244B43750030E77D /* Person2.m */,
+				9F40ECB2244C5A5D0030E77D /* NSObject+Exception.h */,
+				9F40ECB3244C5A5D0030E77D /* NSObject+Exception.m */,
 				9F40EC7D244B2E330030E77D /* Main.storyboard */,
 				9F40EC80244B2E390030E77D /* Assets.xcassets */,
 				9F40EC82244B2E390030E77D /* LaunchScreen.storyboard */,
@@ -281,6 +286,7 @@
 				9F40EC76244B2E330030E77D /* AppDelegate.m in Sources */,
 				9F40ECAB244B2E640030E77D /* Person.m in Sources */,
 				9F40ECAE244B43750030E77D /* Person2.m in Sources */,
+				9F40ECB4244C5A5D0030E77D /* NSObject+Exception.m in Sources */,
 				9F40EC87244B2E390030E77D /* main.m in Sources */,
 				9F40EC79244B2E330030E77D /* SceneDelegate.m in Sources */,
 			);

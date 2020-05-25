@@ -2,7 +2,7 @@
 //  Person.m
 //  demo-Runtime
 //
-//  Created by 王义国 on 2020/4/18.
+//  Created by Equal on 2020/4/18.
 //  Copyright © 2020 小王同学. All rights reserved.
 //
 
@@ -12,9 +12,9 @@
 
 @implementation Person
 
-//-(void)sendMsg:(NSString *)words{
-//    NSLog(@"i want to express - %@",words);
-//}
+-(void)sendMsg:(NSString *)words{
+    NSLog(@"Person = i want to express - %@",words);
+}
 
 void sendMsg(id self, SEL _cmd, NSString *words){
     NSLog(@"====== %@",words);

@@ -1,8 +1,8 @@
 //
-//  Person2.h
+//  NSObject+Exception.h
 //  demo-Runtime
 //
-//  Created by Equal on 2020/4/18.
+//  Created by Equal on 2020/4/19.
 //  Copyright © 2020 小王同学. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Person2 : NSObject
+@interface NSObject (Exception)
 
 @end
 
